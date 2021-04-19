@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+/***************************
+	heder css
+****************************/
+header{
+	width: 100%;
+	background: url(../img/banner.png) center top no-repeat;
+	background-size: cover;
+}
+.nav-link{
+	color: white !important;
+	font-family: 'Source Sans Pro', sans-serif; 
+	font-size: 16px;
+	font-weight: 600;
+}
+.nav-link:hover{
+	color: #008ed6 !important;
+	background: url(../img/divider.png) center bottom no-repeat;
+	font-weight: 600;
+
+}
+.nav-item{
+	margin-left: 16px;
+}
+.navbar{
+	padding: 1rem 0; 
+
+}
+/***************************
+	banner css
+****************************/
+.banner-text{
+	padding: 140px 0px;
+}
+.banner-text h6{
+	color: #008ed6;
+	text-transform: uppercase;
+}
+.banner-text h1{
+	color: white;
+	font-size: 48px;
+	font-weight: 600;
+	margin-top: 24px;
+}
+.banner-text p{
+	color: #999999;
+	font-size: 18px;
+	margin-bottom: 56px;
+}
+.banner-text .banner-btn button{
+	text-transform: uppercase;
+    color: white;
+    background: transparent;
+    padding: 16px 42px;
+    border: 1px solid #999999;
+    margin-right: 32px;
+    border-radius: 5px;
+    font-weight: 600;
+    outline: none;
+}
+.butn-1{
+	background: #008ed6 !important; 
+	border: 1px solid #008ed6;
+}
+.iphone-img{
+    margin-top: 120px;
+    padding-left: 60px;
+}
+/***************************
+	features-1 css
+****************************/
+.features{
+	background: #fff;
+	padding: 80px 0px;
+	border-bottom: 1px solid #d9d9d9; 
+}
+.title{
+	text-align: center; 
+	margin-bottom: 42px;
+
+}
+.title h6{
+	color: #008ed6;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.title h1{ 
+	font-size: 42px;
+	font-weight: 600;
+}
+.feature{
+	text-align: center;
+    padding: 32px 20px;
+}
+.feature i{
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	font-size: 32px;
+	color: #008ed6;
+	border-radius: 50%;
+	border: 1px solid #d9d9d9;
+	font-weight: 400;
+}
+.feature h3{
+	margin: 30px 0px 14px 0px;
+	font-size: 34px;
+}
+.feature p{
+	font-size: 18px;
+	color: #999999;
+}
+/***************************
+	features-2 css
+****************************/
+.features-2{
+	background: #fff;
+	padding: 80px 0px;
+}
+.text-right{
+	text-align: left;
+	padding-top: 56px;
+}
+.text-right p{
+	margin: 20px 0px 30px 0px;
+}
+.text-right ul li i{
+	color: #008ed6;
+	margin-right: 16px;
+}
+.text-right ul li{
+	font-size: 18px;
+	margin-bottom: 8px;	
+}
+/***************************
+	features-3 css
+****************************/
+.features-3{
+	background: #f2f2f2;
+	padding: 80px 0px;
+}
+.texts{
+	padding-top: 80px;
+}
+.texts h6{
+	color: #008ed6;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+.texts h1{
+	font-size: 42px;
+	font-weight: 600;
+}
+.texts p{
+	font-size: 18px;
+	color: #999999;
+	margin: 20px 0px 30px 0px;
+}

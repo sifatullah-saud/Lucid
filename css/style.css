@@ -44,7 +44,7 @@ header{
 	banner css
 ****************************/
 .banner-text{
-	padding: 140px 0px;
+	padding: 140px 35px;
 }
 .banner-text h6{
 	color: #008ed6;
@@ -72,12 +72,15 @@ header{
     font-weight: 600;
     outline: none;
 }
+.banner-text .banner-btn button:hover{
+	background: #008ed6;
+}
 .butn-1{
 	background: #008ed6 !important; 
 	border: 1px solid #008ed6;
 }
 .iphone-img{
-    margin-top: 120px;
+    margin-top: 145px;
     padding-left: 60px;
 }
 /***************************
@@ -171,4 +174,229 @@ header{
 	font-size: 18px;
 	color: #999999;
 	margin: 20px 0px 30px 0px;
+}
+/***************************
+	testimonial css
+****************************/
+.testimonial{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../img/banner2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.testimonial .title h1{
+	color: #fff;
+}
+.testimonial .col-md-10{
+	text-align: left;
+}
+.comment h4{
+	font-size: 24px;
+	color: #fff;
+	font-style: italic;
+	font-weight: 400; 
+	margin-bottom: 16px;
+} 
+.comment span{
+	color: #fff;
+	font-size: 16px;
+}
+.comment p{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+/***************************
+	like-us css
+***************************/
+.like-us{
+	width: 100%;
+	padding: 50px 0px;
+	background: black;
+}
+.like-us-details{
+	color: white;
+}
+.like-us-details h2{
+	font-size: 36px;
+	font-weight: 100;
+}
+.like-us-details span{
+	font-weight: 600;
+}
+.like-us-button button {
+    background: transparent;
+    color: white;
+    padding: 16px 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #444348;
+    border-radius: 3px;
+    margin-right: 24px;
+    font-size: 12px;
+}
+/***************************
+	pricing css
+***************************/
+.pricing{
+	width: 100%;
+	padding: 80px 0px;
+}
+.p-table{
+	border: 1px solid #d8d8d8;
+	text-align: center;
+}
+.p-cat{
+	padding: 16px;
+	border-bottom: 1px solid #d8d8d8;
+}
+.p-cat h2{
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.p-price{
+	border-bottom: 1px solid #d8d8d8;
+	padding: 16px;
+}
+.p-price h1{
+	font-size: 60px;
+	font-weight: 700;
+	position: relative;
+}
+.p-price h1::before {
+    position: absolute;
+    content: '$';
+    top: 15px;
+    left: 30%;
+    font-size: 25px;
+}
+.p-price p{
+	color: #bbbbbb;
+	font-style: italic;
+}
+.p-desc{
+	padding: 16px;
+}
+.p-desc p{
+	margin: 15px;
+    font-size: 18px;
+    color: #bbbbbb;
+}
+.p-desc button{
+	padding: 12px 32px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    background: none;
+    color: #008ed6;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding-bottom: 12px;
+}
+.p-table:hover .p-cat h2{
+	color: #008ed6;
+}
+.p-table:hover .p-price{
+	background: #008ed6;
+}
+.p-table:hover .p-price h1, .p-table:hover .p-price p{
+	color: #fff;
+}
+.p-table:hover .p-desc button{
+	background: #008ed6;
+	color: #fff;
+}
+/***************************
+	contact-us css
+***************************/
+.contact-us{
+	/*padding: 80px 0px;*/
+	width: 100%;
+	background: #ededed;
+	padding-top: 80px;
+}
+.contact-details{
+	text-align: center;
+}
+.contact-details-1 {
+    text-align: center;
+}
+.contact-details-1 i {
+    font-size: 36px;
+    color: #008ed7;
+    padding: 7%;
+}
+.contact-details-1 p {
+    color: #bbbbbb;
+}
+.contact-f{
+    z-index: 99999;
+}
+.contact-form {
+    background: black;
+    padding: 42px;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+.form-control{
+	background: transparent;
+    outline: none;
+    border: 1px solid #464646;
+    margin-bottom: 16px;
+    padding: 12px;
+    color: #8b8b8b !important;
+}
+.form-area textarea {
+    width: 100%;
+    height: 182px;
+}
+.form-area-btn{
+	text-align: right;
+}
+.form-area-btn button{
+	padding: 15px 25px;
+    border-radius: 4px;
+    background-color: #008ed6;
+    color: white;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.maps{
+	z-index: -9999 !important;
+	margin-top: -80px;
+}
+/***************************
+	footer css
+***************************/
+
+.footer{
+    width: 100%;
+    background: black;
+    text-align: center;
+    margin: 0;
+    padding: 30px 0px;
+}
+.social-footer ul li {
+    padding: 5px 0px;
+    list-style: none;
+    display: inline-block;
+}
+.social-footer ul li a{
+    color: #444348;
+    font-size: 25px;
+    padding-right: 18px;
+}
+.social-footer p{
+	color:  #444348;
+}
+.social-footer ul li a:hover{
+	color: #008ed6;
 }
